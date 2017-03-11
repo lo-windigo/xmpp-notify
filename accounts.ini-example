@@ -4,8 +4,12 @@
 # Multiple accounts are supported; just make sure to specify a username and
 # password for each you want to show up.
 #
+# NOTE: Multiple accounts are currently not REALLY supported. Will be in the
+# future!
+#
 # The daemon looks in $HOME/.config/xmpp-notices/accounts.ini and
 # /etc/xmpp-notices/accounts.ini
+
 
 [Server Notices]
 XMPPUser = example@xmpp.example.com
