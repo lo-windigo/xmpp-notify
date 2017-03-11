@@ -1,0 +1,16 @@
+#
+# XMPP Notice accounts
+#
+# Multiple accounts are supported; just make sure to specify a username and
+# password for each you want to show up.
+#
+# The daemon looks in $HOME/.config/xmpp-notices/accounts.ini and
+# /etc/xmpp-notices/accounts.ini
+
+[Server Notices]
+XMPPUser = example@xmpp.example.com
+Password = seecretP@ssword1
+
+[Random Fortune]
+XMPPUser = fortune@xmpp.example.com
+Password = seecretP@ssword2
