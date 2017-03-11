@@ -15,7 +15,7 @@ fi
 
 # Debian (Stretch)
 read -r -d '' DEBIAN_PACKAGES <<-'PACKAGES'
-	python3-dev libssl-dev libffi-dev
+	python3-dev python3-notify2 libssl-dev libffi-dev
 PACKAGES
 
 echo "Installing requested dependencies..."
